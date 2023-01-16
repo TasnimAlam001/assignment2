@@ -252,6 +252,11 @@
     display: flex;
     gap: 125px;
 }
+.three-description :hover{
+    transition: all 0.2s linear;
+    transform: scale(1.0);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
 .three-description .three-box{
     width: 200px;
     height: 200px;
@@ -374,7 +379,7 @@
         
     }
     .header{
-        width: 390px;
+        width: 389px;
         height: 760px;
     }
     .header-two img{
@@ -394,5 +399,78 @@
     }
     .one .one-photo{
         float: bottom;
+    }
+    .one-text{
+        width: 343px;
+        padding-left: 5px;
+    }
+    .two{
+        padding: 40px 20px 40px 10px;
+        display: block;
+    }
+    .two-text{
+        width: 370px;
+        height: 1110px;
+        padding-right: 0px;
+    }
+    .two-discription{
+        width: 270px;
+    }
+    .two-photo{
+        width: 371px;
+        height: 570px;
+    }
+    .two-photo img{
+        width: 346px;
+        height: 490px;
+    }
+    .two-photo .two-btn{
+        top:-75px;
+        width: 215px;
+        height: 150px;
+    }
+    .two-photo .two-btn h3{
+        padding: 34px;
+        font-size: 42px;
+        line-height: 30px;
+    }
+    .three{
+        padding: 100px 10px 100px 20px;
+    }
+    .three-header-text{
+        width: 340px;
+    }
+    .three-description{
+        display: block;
+    }
+    .three-description .three-box{
+        width: 290px;
+    }
+    .four{
+        padding: 56px 20px;
+    }
+    .four-img{
+        padding-top: 40px;
+        display: block;
+    }
+    .four-img img{
+        width: 120px;
+        padding-left: 40px;
+        padding-bottom: 20px;
+    }
+    .contact{
+        width: 90%;
+        padding: 30px 20px;
+    }
+    .footer{
+        padding: 70px 10px;
+    }
+    .ftr{
+        width: 365px;
+        height: 50px;
+    }
+    .ftr p{
+        font-size: 12px;
+        padding-top: 22px;
     }
 }
